@@ -21,3 +21,6 @@
 | 143         | TCP       | Internet Message Access Protocol (IMAP)          |
 | 161         | UDP       | Simple Network Management Protocol (SNMP)        |
 | 443         | TCP       | Hypertext Transfer Protocol Secure (HTTPS)       |
+
+## Troubleshooting
+Command: "netstat" to view all open connections
