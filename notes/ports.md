@@ -1,10 +1,12 @@
 # Ports
 
-### Port Ranges: 1 - 65,535
-- **Well-Known Ports:** 1-1,023 are desitnation ports associated with common network applications
-- **Registered Ports:** 1,024-49,151 can be ussed as either source or destination ports; can be used by organizations to register specific applications such as IM
-- **Private Ports:** 49,152-65,535 are often used as source ports; can be used by any application
+## Overview
+Ports can range from 1 to 65,535; below are 3 categories of ports
+- **Well-Known Ports:** 1 to 1,023 are desitnation ports associated with common network applications
+- **Registered Ports:** 1,024 to 49,151 can be ussed as either source or destination ports; can be used by organizations to register specific applications such as IM
+- **Private Ports:** 49,152 to 65,535 are often used as source ports; can be used by any application
 
+## Well-Known Ports
 | Port Number | Transport | Application Protocol                             |
 |-------------|-----------|--------------------------------------------------|
 | 20          | TCP       | File Transfer Protocol (FTP) - Data              |
