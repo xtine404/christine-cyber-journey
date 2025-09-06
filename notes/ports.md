@@ -1,10 +1,16 @@
 # Ports
 
 ## Overview
-Ports can range from 1 to 65,535; below are 3 categories of ports
-- **Well-Known Ports:** 1 to 1,023 are desitnation ports associated with common network applications
-- **Registered Ports:** 1,024 to 49,151 can be ussed as either source or destination ports; can be used by organizations to register specific applications such as IM
-- **Private Ports:** 49,152 to 65,535 are often used as source ports; can be used by any application
+Ports can range from 1 to 65,535 and are divided into categories:  
+- **Well-Known Ports:** 1 to 1,023 — destination ports associated with common network applications.  
+- **Registered Ports:** 1,024 to 49,151 — can be used as either source or destination ports; often registered for specific applications (e.g., instant messaging).  
+- **Private Ports:** 49,152 to 65,535 — typically used as source ports; available for any application.  
+
+## Transport Layer Protocols
+At the transport layer, two main protocols are used to move data across networks:  
+- **UDP (User Datagram Protocol):** A "best effort" protocol that does not require acknowledgments; faster and suitable for streaming/VoIP, but packets may be lost without retransmission. 
+- **TCP (Transmission Control Protocol):** Reliable protocol that numbers and tracks segments, retransmits lost data, and ensures ordered delivery, making it better for accuracy-critical applications.  
+
 
 ## Well-Known Ports
 | Port Number | Transport | Application Protocol                             |
