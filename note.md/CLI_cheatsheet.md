@@ -9,6 +9,7 @@ This cheat sheet provides a quick comparison of commonly used commands across **
 | Task | Linux / macOS (Bash) | Windows CMD | PowerShell |
 |------|-----------------------|-------------|------------|
 | Show current user | `whoami` | `whoami` | `whoami` |
+| Show local users | ?? | ?? | `Get-LocalUser` |
 | Show current directory | `pwd` | `cd` | `Get-Location` |
 | Show environment variables | `echo $VAR` | `set` | `$env:VAR` |
 | Show system info | `uname -a` | `systeminfo` | `Get-ComputerInfo` |
@@ -48,6 +49,7 @@ This cheat sheet provides a quick comparison of commonly used commands across **
 | DNS lookup | `nslookup domain` | `nslookup domain` | `Resolve-DnsName domain` |
 | SSH remote login | `ssh user@host` | N/A | `ssh user@host` |
 | Copy over SSH | `scp file user@host:/path` | N/A | `scp file user@host:/path` |
+| Generates file hashes | N/A | N/A | `Get-FileHash` |
 
 ---
 
@@ -67,11 +69,24 @@ This cheat sheet provides a quick comparison of commonly used commands across **
 
 | Task | Linux / macOS (Bash) | Windows CMD | PowerShell |
 |------|-----------------------|-------------|------------|
-| filter objects based on specified conditions | ?? | ?? | Where-Object |
-| sort objects based on specified properties | ?? | ?? | Sort-Object |
+| filter objects based on specified conditions | ?? | ?? | `Where-Object` |
+| sort objects based on specified properties | ?? | ?? | `Sort-Object` |
+| select specific properties from objects | ?? | ?? | `Select-Object` |
 
 
 ---
+
+## 🔀 Operators 
+
+| Task | Linux / macOS (Bash) | Windows CMD | PowerShell |
+|------|-----------------------|-------------|------------|
+| equal to | ?? | ?? | `-eq` |
+| not equal | ?? | ?? | `-ne` |
+| greater than | ?? | ?? | `-gt` |
+| greater than or equal to | ?? | ?? | `-ge` |
+| less than | ?? | ?? | `-lt` |
+| less than or equal to | ?? | ?? | `-le` |
+| filter using wildcard * | ?? | ?? | `-like` |
 
 ## 🔀 Operators (Linux only)  
 
